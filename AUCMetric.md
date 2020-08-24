@@ -6,7 +6,7 @@ AUC is the area under the ROC curve. It is a popularly used metric to evaluate M
 
 AUC is the area under the ROC curve. It is a popularly used classification metric.
 
-Here is a 3 minute video I recently made explaining AUC and the ROC curve for those who want to recap:
+Here is a 3 minute video explaining AUC and the ROC curve:
 https://youtu.be/R4jdKWt7OP4
 
 Classifiers such as logistic regression and naive Bayes predict class probabilities as the outcome instead of the predicting the labels themselves. A new data point is classified as positive if the predicted probability of positive class is greater a threshold. Each threshold leads to a different classifier. Hence, typical metrics such as accuracy and F1 score depend on the threshold one  picks. AUC for such classifiers gives an aggregated metric across thresholds.
